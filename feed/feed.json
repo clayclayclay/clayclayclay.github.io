@@ -1,0 +1,43 @@
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "Your Blog Name",
+  "home_page_url": "https://example.com/",
+  "feed_url": "https://example.com/feed/feed.json",
+  "description": "I am writing about my experiences as a naval navel-gazer.",
+  "author": {
+    "name": "Your Name Here",
+    "url": "https://example.com/about-me/"
+  },
+  "items": [{
+      "id": "https://example.com/posts/Disruptor/",
+      "url": "https://example.com/posts/Disruptor/",
+      "title": "内存消息队列-Dirsuptor",
+      "content_html": "<h1 id=\"disruptor\">Disruptor <a class=\"direct-link\" href=\"#disruptor\">#</a></h1>\n<h1 id=\"%E7%94%9F%E4%BA%A7%E8%BF%87%E7%A8%8B\">生产过程 <a class=\"direct-link\" href=\"#%E7%94%9F%E4%BA%A7%E8%BF%87%E7%A8%8B\">#</a></h1>\n<h1 id=\"%E5%8D%95%E7%94%9F%E4%BA%A7%E8%80%85\">单生产者 <a class=\"direct-link\" href=\"#%E5%8D%95%E7%94%9F%E4%BA%A7%E8%80%85\">#</a></h1>\n<p>生产过程：</p>\n<ol>\n<li>申请写入m个元素</li>\n<li>返回最大的序列号</li>\n<li>写数据</li>\n</ol>\n<p>举个例子：</p>\n<ol>\n<li>cursor=6表示当前已生产位置</li>\n<li>调用next(2)申请写入两个元素</li>\n<li>返回可写的最大序列号7</li>\n<li>将数据分别写入6和7的位置</li>\n</ol>\n<p><img src=\"/img/produce.png\" alt=\"生产过程\"></p>\n",
+      "date_published": "2020-09-07T16:00:00+08:00"
+    },{
+      "id": "https://example.com/posts/fourthpost/",
+      "url": "https://example.com/posts/fourthpost/",
+      "title": "This is my fourth post.",
+      "content_html": "<p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>\n<p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>\n<h2 id=\"section-header\">Section Header <a class=\"direct-link\" href=\"#section-header\">#</a></h2>\n<p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>\n",
+      "date_published": "2018-09-29T16:00:00+08:00"
+    },{
+      "id": "https://example.com/posts/thirdpost/",
+      "url": "https://example.com/posts/thirdpost/",
+      "title": "This is my third post.",
+      "content_html": "<p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>\n<pre class=\"language-js\"><code class=\"language-js\"><span class=\"highlight-line\"><span class=\"token comment\">// this is a command</span></span><br><span class=\"highlight-line\"><span class=\"token keyword\">function</span> <span class=\"token function\">myCommand</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span> <span class=\"token punctuation\">{</span></span><br><ins class=\"highlight-line highlight-line-add\">\t<span class=\"token keyword\">let</span> counter <span class=\"token operator\">=</span> <span class=\"token number\">0</span><span class=\"token punctuation\">;</span></ins><br><span class=\"highlight-line\"></span><br><del class=\"highlight-line highlight-line-remove\">\tcounter<span class=\"token operator\">++</span><span class=\"token punctuation\">;</span></del><br><span class=\"highlight-line\"></span><br><span class=\"highlight-line\"><span class=\"token punctuation\">}</span></span><br><span class=\"highlight-line\"></span><br><span class=\"highlight-line\"><span class=\"token comment\">// Test with a line break above this line.</span></span><br><span class=\"highlight-line\">console<span class=\"token punctuation\">.</span><span class=\"token function\">log</span><span class=\"token punctuation\">(</span><span class=\"token string\">'Test'</span><span class=\"token punctuation\">)</span><span class=\"token punctuation\">;</span></span></code></pre>\n<p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>\n<h2 id=\"section-header\">Section Header <a class=\"direct-link\" href=\"#section-header\">#</a></h2>\n<p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>\n",
+      "date_published": "2018-08-23T16:00:00+08:00"
+    },{
+      "id": "https://example.com/posts/secondpost/",
+      "url": "https://example.com/posts/secondpost/",
+      "title": "This is my second post.",
+      "content_html": "<p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>\n<h2 id=\"section-header\">Section Header <a class=\"direct-link\" href=\"#section-header\">#</a></h2>\n<p><a href=\"/posts/firstpost/\">First post</a><br>\n<a href=\"/posts/thirdpost/\">Third post</a></p>\n<p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>\n<p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>\n",
+      "date_published": "2018-07-03T16:00:00+08:00"
+    },{
+      "id": "https://example.com/posts/firstpost/",
+      "url": "https://example.com/posts/firstpost/",
+      "title": "This is my first post.",
+      "content_html": "<p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>\n<p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>\n<h2 id=\"section-header\">Section Header <a class=\"direct-link\" href=\"#section-header\">#</a></h2>\n<p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>\n<pre class=\"language-text\"><code class=\"language-text\"><span class=\"highlight-line\">// this is a command</span><br><span class=\"highlight-line\">function myCommand() {</span><br><mark class=\"highlight-line highlight-line-active\">\tlet counter = 0;</mark><br><mark class=\"highlight-line highlight-line-active\">\tcounter++;</mark><br><span class=\"highlight-line\">}</span><br><span class=\"highlight-line\"></span><br><span class=\"highlight-line\">// Test with a line break above this line.</span><br><span class=\"highlight-line\">console.log('Test');</span></code></pre>\n",
+      "date_published": "2018-04-30T16:00:00+08:00"
+    }
+  ]
+}
