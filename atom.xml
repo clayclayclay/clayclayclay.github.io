@@ -3,11 +3,11 @@
   <title>Hexo</title>
   
   
-  <link href="http://www.wanshoudijun.cn/atom.xml" rel="self"/>
+  <link href="http://clayclayclay.github.io/atom.xml" rel="self"/>
   
-  <link href="http://www.wanshoudijun.cn/"/>
+  <link href="http://clayclayclay.github.io/"/>
   <updated>2025-02-28T11:57:56.721Z</updated>
-  <id>http://www.wanshoudijun.cn/</id>
+  <id>http://clayclayclay.github.io/</id>
   
   <author>
     <name>John Doe</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>clickhouse初入门</title>
-    <link href="http://www.wanshoudijun.cn/2022/02/07/clickhouse-01/"/>
-    <id>http://www.wanshoudijun.cn/2022/02/07/clickhouse-01/</id>
+    <link href="http://clayclayclay.github.io/2022/02/07/clickhouse-01/"/>
+    <id>http://clayclayclay.github.io/2022/02/07/clickhouse-01/</id>
     <published>2022-02-07T06:00:07.000Z</published>
     <updated>2025-02-28T11:57:56.721Z</updated>
     
@@ -34,14 +34,14 @@
     
     
     
-    <category term="clickhouse" scheme="http://www.wanshoudijun.cn/tags/clickhouse/"/>
+    <category term="clickhouse" scheme="http://clayclayclay.github.io/tags/clickhouse/"/>
     
   </entry>
   
   <entry>
     <title>我对olap的初印象</title>
-    <link href="http://www.wanshoudijun.cn/2022/02/01/olap-start/"/>
-    <id>http://www.wanshoudijun.cn/2022/02/01/olap-start/</id>
+    <link href="http://clayclayclay.github.io/2022/02/01/olap-start/"/>
+    <id>http://clayclayclay.github.io/2022/02/01/olap-start/</id>
     <published>2022-02-01T03:35:15.000Z</published>
     <updated>2025-02-28T11:52:11.739Z</updated>
     
@@ -56,7 +56,7 @@
     
     
     
-    <category term="olap" scheme="http://www.wanshoudijun.cn/tags/olap/"/>
+    <category term="olap" scheme="http://clayclayclay.github.io/tags/olap/"/>
     
   </entry>
   
